@@ -39,11 +39,12 @@
             <input type="text" name="first-name" id="first-name">
         </div>
         <div class="form-row">
-            <label for="email">EMAIL</label>
-            <input type="email"
-            name="email"
-            id="email"
-            placeholder="joe@example.com" required>
+            <label for="email">EMAIL<span aria-label="required">*</span></label>
+            <input type="email" name="email" id="email" placeholder="joe@example.com" required />
+        </div>
+        <div class="form-row">
+            <label for="password">PASSWORD<span aria-label="required">*</span></label>
+            <input type="password" name="password" id="password" required>
         </div>
     </form>
         
