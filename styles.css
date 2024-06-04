@@ -48,7 +48,7 @@ p {
     background-repeat: no-repeat;
     height: 170px;
     width: 170px;
-    left: 120px;
+    left: 190px;
     top: 200px;
 }
 
@@ -58,7 +58,7 @@ p {
     font-family: 'NorseBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     color: white;
     top: 230px;
-    left: 270px;
+    left: 340px;
 }
 
 #credit-background-pic {
@@ -89,7 +89,7 @@ p {
 .main-container {
     display: flex;
     flex-direction: column;
-
+    flex: 1 1 auto;
     background-color: rgb(249, 250, 251);
 }
 
