@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex: 0 0 auto;
     
 }
 
@@ -270,9 +271,28 @@ button:hover  {
 }
 
 
+@media (max-height: 1269px) {
+    .upper-part-font {
+        margin-top: 80px;
+        margin-left: 60px;
+        margin-right: 250px;
+        font-size: 26px;
+        font-weight: bold;
+    }
 
+    .form-row-checkbox {
+        position: absolute;
+        top:750px;
+        align-items: center;
+    }
 
-
-
-
-
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        flex-wrap: wrap;
+        max-height: 350px; 
+        
+        
+    }
+}
